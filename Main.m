@@ -20,12 +20,12 @@ sf.EdgeColor = 'none';
 % view(0,90);
 % colorbar
 axis tight
-xlabel('时间 (s)')
-ylabel('频率(Hz)')
+xlabel('time (s)')
+ylabel('frequency(Hz)')
 figure(2)
 subplot(221)
 fs=150;t=(0:length(xx)-1)/fs;
-plot(t,xx,'r');ylabel('幅值');legend('原始信号');
+plot(t,xx,'r');ylabel('amplitude');legend('original signal');
 %% Simulated square wave signal
 %% square wave
 x3=load('moni_fangbo.dat');x3=x3*0.5;x2=x2*2;
@@ -79,12 +79,12 @@ sf.EdgeColor = 'none';
 % view(0,90);
 % colorbar
 axis tight
-xlabel('时间 (s)')
-ylabel('频率(Hz)')
+xlabel('time (s)')
+ylabel('frequency(Hz)')
 figure(2)
 subplot(223)
 fs=150;t=(0:length(xx)-1)/fs;
-plot(t,da,'r');ylabel('幅值');legend('原始信号');
+plot(t,da,'r');ylabel('amplitude');legend('original signal');
 %% iceemdan denoising
 data_length=1000;
 L=fix(length(da)/data_length);
