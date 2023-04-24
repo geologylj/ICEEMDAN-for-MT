@@ -2,7 +2,7 @@
 This is the origin MATLAB implementation of ICEEMDAN in the following paper:
 [Denoising Application of Magnetotelluric Low-Frequency Signal Processing](https://ieeexplore.ieee.org/abstract/document/9904938)
 
-##function
+## function
 ```
 	- Run Main.m to see the example
 	- acoo.m is aco algorithm
