@@ -84,7 +84,7 @@ ylabel('frequency(Hz)')
 figure(2)
 subplot(223)
 fs=150;t=(0:length(xx)-1)/fs;
-plot(t,da,'r');ylabel('amplitude');legend('original signal');
+plot(t,da,'r');ylabel('amplitude');legend('MRSVD denoised signal');
 %% iceemdan denoising
 data_length=1000;
 L=fix(length(da)/data_length);
@@ -122,4 +122,4 @@ ylabel('frequency(Hz)')
 figure(2)
 subplot(224)
 fs=150;t=(0:length(xx)-1)/fs;
-plot(t,y,'r');ylabel('amplitude');legend('Original signal');
+plot(t,y,'r');ylabel('amplitude');legend('ICEEMDAN denoised signal');
