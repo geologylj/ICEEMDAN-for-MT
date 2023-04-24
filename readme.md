@@ -3,7 +3,7 @@ This is the origin MATLAB implementation of ICEEMDAN in the following paper:
 [Denoising Application of Magnetotelluric Low-Frequency Signal Processing](https://ieeexplore.ieee.org/abstract/document/9904938)
 
 ##function
-、、、
+```
 	- Run Main.m to see the example
 	- acoo.m is aco algorithm
 	- addsj.m add triangular wave
@@ -16,7 +16,7 @@ This is the origin MATLAB implementation of ICEEMDAN in the following paper:
 	- EEMD.m is used EEMD to decomposition signal
 	- EMD.m computes Empirical Mode Decomposition
 	- iceemdan.m is used ICEEMDAN to decomposition signal
-、、、
+```
 
 	
 ## <span id="citelink">Citation</span>
