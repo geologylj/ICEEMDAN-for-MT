@@ -29,8 +29,8 @@ If you find this repository useful in your research, please consider citing the 
                Jingtian Tang and
                Yecheng Liu and
                Jin Cai},
-	journal = {IEEE Transactions on Geoscience and Remote Sensing},
-	title     = {Denoising Application of Magnetotelluric Low-Frequency Signal Processing},
+    journal   = {IEEE Transactions on Geoscience and Remote Sensing},
+    title     = {Denoising Application of Magnetotelluric Low-Frequency Signal Processing},
     volume    = {60},
     year      = {2022},
 }
